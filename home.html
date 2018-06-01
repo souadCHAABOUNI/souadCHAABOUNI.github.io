@@ -1,0 +1,165 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Home | Portfolio template</title><meta name="description" content="Page-specific description"><meta name="keywords" content="Page-specific keywords"><link rel="shortcut icon" href="favicon.ico"><link rel="shortcut icon" href="static/images/favicons/favicon.png" type="image/x-icon"><link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css"><link rel="stylesheet" href="static/css/screen.min.css"><link rel="stylesheet" href="static/css/custom.min.css"><script src="static/js/head.min.js"></script></head><body><script>progressJs().setOptions({overlayMode: true, theme: 'custom'}).start();
+      if(window.attachEvent) {
+          window.attachEvent('onload', function(){ progressJs().end(); });
+      } else {
+          if(window.onload) {
+              var curronload = window.onload;
+              var newonload = function() {
+                  curronload();
+                  progressJs().end();
+              };
+              window.onload = newonload;
+          } else {
+              window.onload = function(){ progressJs().end(); };
+          }
+      }</script><!-- Header--><header class="main-header"><div class="first-nav"><div class="container">
+	<nav class="first-nav__links"><ul><li><a class="is-selected">english</a></li>
+		<li><a href="#">        </a></li><li><a href="#">       </a></li></ul></nav>
+	<a class="first-nav__navcontrol icon icon_menu js-navcontrol" href="#">Menu</a></div></div><div class="second-nav js-nav"><div class="container"><a class="second-nav__logo"><span>SC</span></a><nav class="menu"><ul><li><a class="js-link js-anchor is-selected" href="#home">Home</a></li><li><a class="js-link js-anchor" href="#about">About</a></li><li><a class="js-link js-anchor" href="#services">Research</a></li><li><a class="js-link js-anchor" href="#process">
+	</a></li>
+	<li><a class="js-link js-anchor" href="#projects">Projects</a></li><li>
+	<a class="js-link js-anchor" href="#testimonials">Teaching</a></li><li><a class="js-link js-anchor" href="#contacts">Contacts</a></li></ul></nav></div></div></header><!-- Home section--><section class="home-section" id="home"><div class="home-section__bg"></div><div class="home-section__overlay"><div class="container"><header class="home-section__header"><h1>S**** Chaa*****</h1><h2>Data scientist - Deep learning and computer vision expert .</h2></header></div></div></section><!-- About section--><section class="about-section" id="about"><div class="container"><div class="about-card"><header class="about-card__header"><h2>About me</h2><h4>phd computer science</h4></header><div class="about-card__info"><p>Current post-doc in I3S laboratory (university of Nice Sophia Antipolis). 7+ years research experience specializing in machine learning, deep networks, computer vision and image processing. Super nerd who loves Linux and enjoys to customize all of the development environment. Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools if the need arises. Proofreading of international journal and establishment of international collaboration.</p><blockquote><p> Over 10 papers at international conferences and journals of computer vision and machine learning.</p></blockquote><p>During the years of the PhD, teaching courses has been varied with a strong component in programming and innovation. More than 111 teaching hours have been completed.</p><p class="about-card__info-status"><span>Current status:</span> Available for hire</p></div></div></div></section><!-- Services section--><section class="common-section" id="services"><div class="container"><header class="common-section__header"><h2>Research</h2><h4>towards a better low-level presentation of signal </h4></header>
+	<div class="grid-container">
+	<ul class="services services_advisory"><li class="services__item icon icon_support">
+		<h4>ChaboNet : architecture for saliency prediction</h4>
+		<p>ChaboNet architecture was designed for the two-class classification problem: prediction of category of a patch in a given video frame as salient or non-salient. We aimed i) to preserve a reasonable deepness and ii) to remain comparable in the number of layers with a quite efficient network Alexnet.
+		</p></li>
+		<li class="services__item icon icon_strategy"><h4>Specific saliency features for deep lea
+			rning</h4>
+			<p> On the contrary to natural images where saliency is ``spatial”, based on color contrasts, saturation contrasts, intensity contrasts ... , the saliency of the video is also based on the motion information of the objects with regard to the background. Primary motion features and spatial primary features were considered to feed the deep ChaboNet.</p></li><li class="services__item icon icon_improve"><h4>Generation of dense saliency map</h4><p> The saliency map of each frame of the video is constructed using the output value of the trained deep CNN model. </p></li>
+		<li class="services__item icon icon_support">
+		<h4>Study of the impact of saliency and gaze features on visual control</h4>
+		<p> A new state-of-the-art criterion that ensures the automatic annotation of images using ocular
+			movements was introduced. Two psycho-visual experiments with two and four displayed images were set up
+			. Benefits of annotation were demonstrated based on gaze movements over approaches purely based on saliency.		</p></li>
+		</ul><ul class="services services_pm"><li class="services__item icon icon_recover"><h4> 
+		Transfer learning with deep CNN for saliency prediction</h4><p>Transfer learning scheme consists
+		in two steps: i) learning the whole binary classification model on a large data set, ii) 
+		transfer on small data set : initialisation of parameters’ values in learning process by
+		the optimal parameter values obtained on a large data set. The initialized parameters will yield
+		a ``better” local minimum of loss function, than in the case of a random initialisation.
+		</p></li><li class="services__item icon icon_plan"><h4>Sensitivity of Deep CNNs to noise in training data</h4><p>To study the sensitivity of deep CNN to noise in data, we have conducted two experiments: i) non-salient patches were selected randomly in a standard way, that is in the complementary area of video frames after salient regions have been extracted; ii)  Cinematographic production rule of 3/3 for non-salient patches selection was used.</p></li><li class="services__item icon icon_research"><h4>Application of saliency prediction for testing of patients with neuro-degenerative diseasess</h4><p>Production of content adapted to MND studies to mesure the curiosity of subjects with respect to unusual content. Models of prediction on produced content were designed. Control subjects are attracted to the salient areas. These areas can be :  a detail of the scene important for understanding or a  designed degradation
+		</p></li></ul>
+		<div class="advantages">
+		<h2>Why choose me?</h2><blockquote><p>.</p><cite>
+		Souad CHAABOUNI Data scientist- Computer vision expert </cite></blockquote></div></div></div>
+	</section><!-- Process section--><section class="common-section" id="process"><div class="container">
+	<header class="common-section__header">
+	<h2>Publications</h2>
+	<h4>Over 10 papers at international conferences and journals of computer vision and machine learning</h4></header>
+	<div class="grid-container"><ul class="process"><li class="process__step process__step_research">
+		<div class="process__step-icon icon icon_plan is-active"></div></li>
+		<li class="process__step-info process__step-info_research is-active">
+			<h3><span>International Journals</span> &mdash; </h3>
+			<p> &mdash; Prediction of visual attention with Deep CNN on artificially degraded videos for studies of
+attention of Patients with Dementia; S. CHAABOUNI, J. BENOIS-PINEAU, F. TISON, CH. BEN AMAR, A. ZEMMAR; 
+				Journal of Multimed Tools Appl (2017).</p>
+			<p> &mdash; ChaboNet : design of a deep CNN for prediction of visual saliency in natural video; S. CHAABOUNI, J. BENOIS-PINEAU, CH. BEN AMAR;
+				submitted in JVCI(2018)</p>
+			<p> &mdash; Classification of Surgical Actions in Endoscopy: Early and Late Fusion of Temporal
+Information; S. PETSCHARNIG, J. BENOIS-PINEAU, S. CHAABOUNI, K. SCHOEFFMANN, J. KECKSTEIN;
+				submitted in IEEE TRansactions on biomedical engineering(2018).</p>
+		</li><li class="process__step process__step_develop">
+		<div class="process__step-icon icon icon_deliver"></div></li>
+		<li class="process__step-info process__step-info_develop">
+			<h3><span>International conference</span> &mdash;</h3>
+			<p> &mdash; Transfer learning with deep networks for saliency prediction in natural video; 
+S. CHAABOUNI, J. BENOIS-PINEAU, CH. BEN AMAR; http://gdr-Conference paper28 July 2016;  ICIP2016</p>
+			<p> &mdash; Prediction of visual saliency in video with Deep CNNs ; S. CHAABOUNI, J. BENOIS-PINEAU, O. HADAR
+;  Proc. SPIE 9971, Applications of Digital Image Processing XXXIX, 99711Q; 28 September 2016. </p>
+			<p> &mdash; Prediction of visual attention with Deep CNN for studies of neurodegenerative diseases;
+S. CHAABOUNI, J. BENOIS-PINEAU, F. TISON, CH. BEN AMAR;CBMI2016  16 juin 2016.</p>
+			<p> &mdash;  Particle swarm optimization for support vector clustering: separating hyperplane for
+unlabeled data; S. CHAABOUNI, S. JAMOUSSI AND Y. BENAYED; 5th international conference on modeling, simulation and applied optimization; april 2013.</p>
+			<p> &mdash; Study of the impact of saliency and gaze features on visual control: Gaze-Saliency
+Interest Estimator; S. CHAABOUNI, F. PRECIOSO, A. REVEL,  submitted in BMVC(2018).</p>
+		</li><li class="process__step process__step_deploy"><div class="process__step-icon icon icon_deploy">
+		</div></li><li class="process__step-info process__step-info_deploy">
+		<h3><span>Chapter book</span> &mdash; </h3>
+		<p>&mdash; Deep Saliency: Prediction of Interestingness In Video With CNN; S. CHAABOUNI, J. BENOIS-PINEAU, CH. BEN AMAR, A. ZEMMARI
+Chapter book “Visual content indexing and retrieval with psycho-visual models” in Springer(2017).</p>
+		</li><li class="process__step process__step_deliver"><div class="process__step-icon icon icon_develop "></div></li>
+		<li class="process__step-info process__step-info_deliver"><h3><span>Others</span> &mdash; </h3>
+			<p>&mdash; Sensitivity of Deep CNNs to noise in training Data in the problem of visual saliency
+prediction; S. CHAABOUNI, J. BENOIS-PINEAU, CH. BEN AMAR; Conference ERIS’2016 Eye-tracking, Regard, Interactions et Suppléances 
+				Orléans (Conference paper 14 November 2016).</p>
+			<p>&mdash; Prediction of saliency in natural video with transfer learning in deep CNN; 
+S. CHAABOUNI, J. BENOIS-PINEAU, CH. BEN AMAR; Talk in national days GDR-ISIS: Visual saliency and tattoo and compression applications for images and videos.
+isis.fr/index.php?page=reunion&idreunion=310 (October 2016) </p>
+			<p>&mdash; Deep learning for saliency prediction in natural video
+S. CHAABOUNI, J. BENOIS-PINEAU, O. HADAR, CH. BEN AMAR
+Preprint paper CoRR, abs/1604.08010,2016, http://arxiv.org/abs/1604.08010; (april 2016)</p>				
+		</li>
+		</ul></div></div>
+	<div class="common-section__header">
+		<h2> </h2><blockquote><p> </p></blockquote></div>
+
+	</section><!-- Projects section--><section class="common-section" id="projects">
+	<header class="common-section__header"><h2>Projects</h2><p>Projects were varied with a strong component in programming and innovation</p></header>
+	<div class="projects-wrap"><div class="grid-container"><div class="projects">
+		<figure class="projects__item">
+			<img src="static/images/projects/Degradation.png" alt="Application of saliency prediction for testing of patients with neuro-degenerative diseasess">
+			<figcaption><a class="icon icon_link" href="#" rel="nofollow">Application of saliency prediction for testing of patients with neuro-degenerative diseasess</a></figcaption></figure>
+		<figure class="projects__item"><img src="static/images/projects/residualMotion.png" alt="Specific saliency features for deep learning : RGB + residual motion">
+			<figcaption><a class="icon icon_link" href="#" rel="nofollow">Specific saliency features for deep learning : RGB + residual motion </a>
+			</figcaption></figure>
+		<figure class="projects__item"><img src="static/images/projects/trainingPatch.png" alt="Sensitivity of Deep CNNs to noise in training data">
+			<figcaption><a class="icon icon_link" href="#" rel="nofollow">Sensitivity of Deep CNNs to noise in training data</a></figcaption>
+		</figure><figure class="projects__item"><img src="static/images/projects/GSIE.png" alt="Study of the impact of saliency and gaze features on visual control">
+		<figcaption><a class="icon icon_link" href="#" rel="nofollow">Study of the impact of saliency and gaze features on visual control</a></figcaption>
+		</figure><figure class="projects__item"><img src="static/images/projects/ChaboNet.png" alt="ChaboNet : architecture for saliency prediction">
+		<figcaption><a class="icon icon_link" href="#" rel="nofollow">ChaboNet : architecture for saliency prediction</a>
+		</figcaption></figure><figure class="projects__item"><img src="static/images/projects/transferLearning.png" alt="Transfer learning with deep CNN for saliency prediction">
+		<figcaption><a class="icon icon_link" href="#" rel="nofollow">Transfer learning with deep CNN for saliency prediction</a>
+		</figcaption></figure><figure class="projects__item"><img src="static/images/projects/SaliencyGeneration.png" alt="Generation of dense saliency map">
+		<figcaption><a class="icon icon_link" href="#" rel="nofollow">Generation of dense saliency map</a>
+		</figcaption></figure><figure class="projects__item"><img src="static/images/projects/protocolExperiment.png" alt="Experiment protocol">
+		<figcaption><a class="icon icon_link" href="#" rel="nofollow">Experiment protocol</a>
+		</figcaption></figure></div></div></div>
+	</section><!-- Testimonials section--><section class="common-section" id="testimonials"><div class="container">
+	<header class="common-section__header"><h2>Teaching</h2>
+		<p>More than 111 hours of teaching have been done. The Caffe framework has been installed in
+TD's rooms with the collaboration of the system team.</p>
+	</header><div class="grid-container"><ul class="testimonials"><li class="testimonials__item">
+	<img src="static/images/logos/Banniere-idv-gif-anime.gif" alt="Lorem ipsum dolor sit amet">
+	<blockquote><p class="icon icon_ql">Three courses were performed: animated images and video indexation  is intended for the student of 
+		the Master 2 “Computer Science” during 2015-2016; 2016-2017 and 2017-2018 . "Initiation
+		to research” is intended for the master 2 “Miage”. The integrated course of “introduction to computer science
+		(init-info)” is intended for L1 level. Different frameworks and languages were used : Caffe, OpenCV, C++, Python</p>
+		<cite><span class="name">68 hours,</span><span class="role"> University of Bordeaux</span></cite></blockquote>
+	</li><li class="testimonials__item"><img src="static/images/logos/inp.PNG" alt="Lorem ipsum dolor sit amet">
+	<blockquote><p class="icon icon_ql"> The video indexation course is dedicated for the 3rd
+year computer science in Bordeaux INP-ENSEIRB-MATMECA during 2015-2016; 2016-2017 and 2017-2018 totalling 28 hours.
+		Using Matlab language, four tutorials
+were prepared with an update of the TDs performed each year: metrics of visual attention; motion estimation and 
+		morphological operations; search of images by the content; tracking by the technique of "mean shift".</p><cite><span class="name">28 hours</span><span class="role"> 
+		INP-ENSEIRB-MATMECA</span></cite></blockquote></li></ul>
+	<ul class="testimonials"><li class="testimonials__item"><img src="static/images/logos/AES.png" alt="Lorem ipsum dolor sit amet">
+		<blockquote><p class="icon icon_ql">
+			This teaching unit is intended for all students of the sector economy and management of the college
+DSPEG of the University of Bordeaux. The course introduces advanced spreadsheets, data
+and scenario analysis. The second part of the course is dedicated to algorithmics. The goal here is that the student
+manage to design an algorithm using Algobox (2017-2018). </p><cite>
+			<span class="name">30 hours</span><span class="role">college DSPEG</span></cite></blockquote></li><li class="testimonials__item">
+		<img src="static/images/logos/isims.jpg" alt="Lorem ipsum dolor sit amet"><blockquote>
+		<p class="icon icon_ql">Preparation for C2I is dedicated for the L1 students of the institute of computer science and multimedia
+			of Sfax. The main purpose of this course is to : structure and format a document; to create a composite 
+			document and to use data in spreadsheets </p><cite>
+		<span class="name">2011-2012</span><span class="role"> ISIMS</span></cite></blockquote></li>
+	</ul></div></div></section><!-- Contacts section-->
+	<div class="contacts-section" id="contacts"><div class="container">
+		<section class="contact-card"><header class="contact-card__header">
+			<h2>Contact information</h2><h4> </h4>
+</header><div class="contact-info"><div class="contact-info__logo">SC</div><div class="contact-info__group">
+			<div class="contact-info__additional"><p></p>
+			</div><div class="contact-info__vcard vcard"><h4 class="fn org">Souad CHAABOUNI</h4><p class="role title">
+			Data Scientist Expert</p><p class="icon icon_location">
+			<a class="adr js-anchor" href="#gmap"><span class="country-name">France</span>,&nbsp;
+				<span class="locality">Nissa</span></a></p><p class="icon icon_mail">
+			<a class="email" >chaaouni_souad@yahoo.fr</a></p>
+			<p class="icon icon_phone"><a class="email" >+33-07-82-87-11-74</a>
+			</p></div><ul class="contact-info__social"></ul></div></div>
+		</section></div><div class="gmap" id="gmap"></div></div><!-- Footer--><footer class="main-footer">
+	<div class="container"><p class="main-footer__copyright">&copy;&nbsp;<span>Souad CHAABOUNI</span></p>
+		<a class="main-footer__gotop icon icon_gotop js-anchor" href="#home">To top!</a><p class="main-footer__links">
+		Designed by&nbsp;<a href="http://orlovmax.com">Maxim Orlov</a></p></div></footer><script src="static/js/body.min.js"></script></body></html>
